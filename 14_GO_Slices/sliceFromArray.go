@@ -1,12 +1,12 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	myarr := [6]int{10, 11, 12, 13, 14, 15}
-	myslice := myarr[2:4]
+// func main() {
+// 	myarr := [6]int{10, 11, 12, 13, 14, 15}
+// 	myslice := myarr[2:4]
 
-	fmt.Printf("myslice = %v\n", myslice)
-	fmt.Printf("length =%d\n", len(myslice))
-	fmt.Printf("capacity =%d\n", cap(myslice))
-}
+// 	fmt.Printf("myslice = %v\n", myslice)
+// 	fmt.Printf("length =%d\n", len(myslice))
+// 	fmt.Printf("capacity =%d\n", cap(myslice))
+// }
