@@ -14,4 +14,11 @@ func main() {
 
 	scores = append(scores, 123, 124, 125, 126, 890, 99)
 	fmt.Println("After appending more values. To check how much the capcity grows by: ", scores, len(scores), cap(scores))
+
+	todos := []string{"My", "name", "is", "mist"}
+	more := []string{"I", "am", "learning", "Golang"}
+
+	//... spreads
+	todos = append(todos, more...)
+	fmt.Println(todos)
 }
