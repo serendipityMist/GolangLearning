@@ -27,4 +27,14 @@ func main() {
 	fmt.Println(scores["science"])
 	fmt.Println(scores["Python"])
 
+	//deleting from map
+	user := map[string]string{
+		"u1": "mist",
+		"u2": "sus",
+		"u3": "user",
+	}
+	fmt.Println(user)
+	delete(user, "u3")
+	fmt.Println(user)
+
 }
